@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  color: aqua;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+.menu-item {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.menu-item .a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.menu-item .a div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in 0s;
+  transition: width 0.3s ease-in 0s;
+}
+
+.menu-item .a div a {
+  font-size: 5em;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease, -webkit-transform 0.6s ease;
+  transition: opacity 0.6s ease, -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  transition: transform 0.6s ease, opacity 0.6s ease, -webkit-transform 0.6s ease;
+  -webkit-text-stroke: 2px #fff;
+  text-shadow: none;
+}
+
+.menu-item .b {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-item .b .c {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-item .b .c .f {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-item .b .c .f .g {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-item .b .c .f .g .j {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-item .b .d {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.menu-item .b .d div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0%;
+  width: 100%;
+  background: red;
+  -webkit-transition: height 0.3s ease 0.4s;
+  transition: height 0.3s ease 0.4s;
+}
+
+.menu-item .b .d div a {
+  font-size: 4.4em;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.e {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.e div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: #333;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: width 0.3s ease 0.8s;
+  transition: width 0.3s ease 0.8s;
+}
+
+.e div a {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.k {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.k div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  background: #000;
+  -webkit-transition: width 0.3s ease 2.4s;
+  transition: width 0.3s ease 2.4s;
+}
+
+.k div button {
+  font-size: 1.2em;
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.k div button:focus {
+  outline: none;
+}
+
+.l {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.l div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0%;
+  width: 100%;
+  background: #333;
+  -webkit-transition: height 0.3s ease 2s;
+  transition: height 0.3s ease 2s;
+}
+
+.i {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.i div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: width 0.3s ease 1.6s;
+  transition: width 0.3s ease 1.6s;
+}
+
+.h {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.h div {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: #000;
+  height: 0%;
+  width: 100%;
+  -webkit-transition: height 0.3s ease 1.2s;
+  transition: height 0.3s ease 1.2s;
+}
+
+.menu-item.menu-active .k div {
+  width: 100%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.menu-item.menu-active .l div {
+  height: 100%;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.menu-item.menu-active .i div {
+  width: 100%;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.menu-item.menu-active .h div {
+  height: 100%;
+  -webkit-transition-delay: 0.9s;
+          transition-delay: 0.9s;
+}
+
+.menu-item.menu-active .e div {
+  width: 100%;
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.menu-item.menu-active .e div a {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.menu-item.menu-active .d div {
+  height: 100%;
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.menu-item.menu-active .d div a {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition-delay: 1.9s;
+          transition-delay: 1.9s;
+}
+
+.menu-item.menu-active .a div {
+  width: 100%;
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+
+.menu-item.menu-active .a div a {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s;
+}
+
+.menu-item.menu-active .a div:hover {
+  background: url(../assets/work.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-item.menu-active .a div:hover a {
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  text-shadow: none;
+}
+/*# sourceMappingURL=styles.css.map */
